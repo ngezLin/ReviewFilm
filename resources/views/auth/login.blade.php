@@ -51,7 +51,7 @@
       </form>
 
       <p class="mb-1">
-        <a href="/guest">guest</a>
+        <a href="/guest">Login as guest</a>
       </p>
       <p class="mb-0">
         <a href="{{ url('/register') }}" class="text-center">Register a new account</a>

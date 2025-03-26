@@ -3,6 +3,6 @@
 @section('title', 'Reviewer Dashboard')
 
 @section('content')
-    <h2>Welcome, Reviewer!</h2>
+    <h5>Welcome {{ auth()->user()->name }}!</h5>
     <p>Manage your reviews here.</p>
 @endsection

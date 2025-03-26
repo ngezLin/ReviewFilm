@@ -21,7 +21,7 @@
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav">
                     <li class="nav-item"><a href="{{ url('/admin') }}" class="nav-link">Dashboard</a></li>
-                    <li class="nav-item"><a href="{{ url('/admin/films') }}" class="nav-link">Films</a></li>
+                    <li class="nav-item"><a href="{{ url('/admin/index-film') }}" class="nav-link">Films</a></li>
                     <li class="nav-item"><a href="{{ url('/admin/reviews') }}" class="nav-link">Reviews</a></li>
                 </ul>
                 <ul class="navbar-nav ml-auto">

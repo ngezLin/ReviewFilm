@@ -43,8 +43,6 @@
                 <div class="masthead-subheading">Welcome to ReviewFilm Web App!</div>
                 <div class="masthead-heading text-uppercase">Find Your Favorite Movie Now</div>
                 <a class="btn btn-primary btn-xl text-uppercase" href="#feature">Tell Me More</a>
-                <br></br>
-                <a class="btn btn-primary btn-xl text-uppercase" href="/guest">Click me to continue</a>
             </div>
         </header>
         <!-- Feature-->
@@ -293,7 +291,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        back
                                     </button>
                                 </div>
                             </div>
@@ -331,7 +329,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        back
                                     </button>
                                 </div>
                             </div>
@@ -373,7 +371,7 @@
                                     </ul>
                                     <button class="btn btn-primary btn-xl text-uppercase" data-bs-dismiss="modal" type="button">
                                         <i class="fas fa-xmark me-1"></i>
-                                        Close Project
+                                        back
                                     </button>
                                 </div>
                             </div>
