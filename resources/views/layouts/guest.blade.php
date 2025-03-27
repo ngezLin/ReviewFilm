@@ -23,8 +23,8 @@
             </button>
             <div class="collapse navbar-collapse" id="navbarCollapse">
                 <ul class="navbar-nav">
-                    <li class="nav-item"><a href="{{ url('/films') }}" class="nav-link">Films</a></li>
-                    <li class="nav-item"><a href="{{ url('/reviews') }}" class="nav-link">Reviews</a></li>
+                    <li class="nav-item"><a href="{{ url('/guest/films') }}" class="nav-link">Films</a></li>
+                    <li class="nav-item"><a href="{{ url('/guest/reviews') }}" class="nav-link">Reviews</a></li>
                 </ul>
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item"><a href="{{ url('/login') }}" class="nav-link text-dark">Login</a></li>

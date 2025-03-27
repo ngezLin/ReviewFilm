@@ -3,7 +3,7 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\AuthController;
 use App\Http\Controllers\FilmController;
-
+use App\Http\Controllers\GuestFilmController;
 
 Route::get('/', function () {
     return view('welcome');
@@ -13,6 +13,8 @@ Route::get('/', function () {
 Route::get('/guest', function () {
     return view('guest.index');
 });
+Route::get('/guest/films', [GuestFilmController::class, 'index']);
+
 
 Route::get('/login', [AuthController::class, 'showLoginForm'])->name('login');
 Route::post('/login', [AuthController::class, 'login']);
@@ -42,5 +44,3 @@ Route::middleware(['auth', 'role:reviewer'])->group(function () {
         return view('reviewer.index');
     });
 });
-
-Route::resource('films', FilmController::class);
